@@ -1,0 +1,21 @@
+index.html# Bot Grabber for Gig Work Apps  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GigWebTech Bot Grabber</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to the GigWebTech Bot Grabber</h1>
+  <p>Tools for Spark, Roadie, Amazon Flex & more</p>
+
+  <form id="registerForm">
+    <input type="text" placeholder="Email or phone" id="userInput" required>
+    <button type="submit">Request Access</button>
+  </form>
+
+  <p id="confirmation"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
